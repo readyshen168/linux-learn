@@ -9,15 +9,17 @@ int main(void){
         perror("Error opening file");
         return 1;
     }
-    // 输出父进程的pid到文件里
-    if(fprintf(fp, "the ppid is: %d\n", (int)getppid()) < 0){
-        perror("Error: Failed to write to file");
-        // 出错时关闭文件
-        if(fclose(fp) != 0){
-            perror("Error: Failed to close file");
+    // 循环输出父进程的pid到文件里
+    for(int i = 0; i < 2; i++){
+        if(fprintf(fp, "the ppid is: %d\n", (int)getppid()) < 0){
+            perror("Error: Failed to write to file");
+            // 出错时关闭文件
+            if(fclose(fp) != 0){
+                perror("Error: Failed to close file");
+            };
+            return 1;
         };
-        return 1;
-    };
+    }
     // 关闭文件
     if(fclose(fp) != 0){
         perror("Error: Failed to close file");
