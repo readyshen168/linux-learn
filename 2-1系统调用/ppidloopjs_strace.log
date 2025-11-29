@@ -1,0 +1,633 @@
+execve("/usr/bin/node", ["node", "ppidloop.js"], 0x7ffe285ec050 /* 45 vars */) = 0 <0.000577>
+brk(NULL)                               = 0x16ca2000 <0.000010>
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ddecdfa1000 <0.000016>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000022>
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000322>
+fstat(3, {st_mode=S_IFREG|0644, st_size=24023, ...}) = 0 <0.000087>
+mmap(NULL, 24023, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ddecdf9b000 <0.000088>
+close(3)                                = 0 <0.000086>
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000087>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000083>
+fstat(3, {st_mode=S_IFREG|0644, st_size=14408, ...}) = 0 <0.000011>
+mmap(NULL, 16400, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ddecdf96000 <0.000081>
+mmap(0x7ddecdf97000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7ddecdf97000 <0.000057>
+mmap(0x7ddecdf98000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ddecdf98000 <0.000016>
+mmap(0x7ddecdf99000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ddecdf99000 <0.000028>
+close(3)                                = 0 <0.000020>
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000099>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000199>
+fstat(3, {st_mode=S_IFREG|0644, st_size=2592224, ...}) = 0 <0.000075>
+mmap(NULL, 2609472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ddecdc00000 <0.000019>
+mmap(0x7ddecdc9d000, 1343488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9d000) = 0x7ddecdc9d000 <0.000100>
+mmap(0x7ddecdde5000, 552960, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e5000) = 0x7ddecdde5000 <0.000023>
+mmap(0x7ddecde6c000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26b000) = 0x7ddecde6c000 <0.000018>
+mmap(0x7ddecde7a000, 12608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ddecde7a000 <0.000083>
+close(3)                                = 0 <0.000077>
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000082>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000011>
+fstat(3, {st_mode=S_IFREG|0644, st_size=952616, ...}) = 0 <0.000009>
+mmap(NULL, 950296, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ddecdead000 <0.000078>
+mmap(0x7ddecdebd000, 520192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7ddecdebd000 <0.000023>
+mmap(0x7ddecdf3c000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8f000) = 0x7ddecdf3c000 <0.000019>
+mmap(0x7ddecdf94000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe7000) = 0x7ddecdf94000 <0.000015>
+close(3)                                = 0 <0.000085>
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000087>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000077>
+fstat(3, {st_mode=S_IFREG|0644, st_size=183024, ...}) = 0 <0.000009>
+mmap(NULL, 185256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ddecde7f000 <0.000083>
+mmap(0x7ddecde83000, 147456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7ddecde83000 <0.000021>
+mmap(0x7ddecdea7000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7ddecdea7000 <0.000093>
+mmap(0x7ddecdeab000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7ddecdeab000 <0.000017>
+close(3)                                = 0 <0.000009>
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3 <0.000076>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000010>
+fstat(3, {st_mode=S_IFREG|0644, st_size=14408, ...}) = 0 <0.000076>
+mmap(NULL, 16400, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ddecdbfb000 <0.000015>
+mmap(0x7ddecdbfc000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7ddecdbfc000 <0.000024>
+mmap(0x7ddecdbfd000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ddecdbfd000 <0.000079>
+mmap(0x7ddecdbfe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ddecdbfe000 <0.000091>
+close(3)                                = 0 <0.000075>
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000076>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832 <0.000080>
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784 <0.000010>
+fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0 <0.000086>
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ddecdbf9000 <0.000083>
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784 <0.000075>
+mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ddecd800000 <0.000089>
+mmap(0x7ddecd828000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7ddecd828000 <0.000087>
+mmap(0x7ddecd9b0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7ddecd9b0000 <0.000098>
+mmap(0x7ddecd9ff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x7ddecd9ff000 <0.000021>
+mmap(0x7ddecda05000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ddecda05000 <0.000079>
+close(3)                                = 0 <0.000088>
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ddecdbf7000 <0.000079>
+arch_prctl(ARCH_SET_FS, 0x7ddecdbf7c80) = 0 <0.000009>
+set_tid_address(0x7ddecdbf7f50)         = 2662732 <0.000009>
+set_robust_list(0x7ddecdbf7f60, 24)     = 0 <0.000007>
+rseq(0x7ddecdbf85a0, 0x20, 0, 0x53053053) = 0 <0.000009>
+mprotect(0x7ddecd9ff000, 16384, PROT_READ) = 0 <0.000083>
+mprotect(0x7ddecdbfe000, 4096, PROT_READ) = 0 <0.000023>
+mprotect(0x7ddecdeab000, 4096, PROT_READ) = 0 <0.000024>
+mprotect(0x7ddecdf94000, 4096, PROT_READ) = 0 <0.000026>
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ddecdbf5000 <0.000023>
+mprotect(0x7ddecde6c000, 45056, PROT_READ) = 0 <0.000032>
+mprotect(0x7ddecdf99000, 4096, PROT_READ) = 0 <0.000026>
+mprotect(0x5507000, 16384, PROT_READ)   = 0 <0.000016>
+mprotect(0x7ddecdfd9000, 8192, PROT_READ) = 0 <0.000037>
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000009>
+munmap(0x7ddecdf9b000, 24023)           = 0 <0.000034>
+futex(0x7ddecde7a7bc, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000044>
+getrandom("\x68\x62\xa2\xd6\xb4\x62\xe8\x11", 8, GRND_NONBLOCK) = 8 <0.000010>
+brk(NULL)                               = 0x16ca2000 <0.000008>
+brk(0x16cc3000)                         = 0x16cc3000 <0.000012>
+brk(0x16ce4000)                         = 0x16ce4000 <0.000044>
+futex(0x553cd88, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000038>
+brk(0x16d05000)                         = 0x16d05000 <0.000038>
+getpid()                                = 2662732 <0.000051>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000031>
+getuid()                                = 1000 <0.000006>
+geteuid()                               = 1000 <0.000008>
+getgid()                                = 1001 <0.000008>
+getegid()                               = 1001 <0.000006>
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}) = 0 <0.000009>
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0 <0.000025>
+fstat(2, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0 <0.000025>
+rt_sigprocmask(SIG_SETMASK, [USR1], NULL, 8) = 0 <0.000026>
+rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000024>
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000008>
+rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000008>
+rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000006>
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000006>
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000008>
+rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000008>
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000026>
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ddecd845330}, NULL, 8) = 0 <0.000026>
+rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000025>
+rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000024>
+rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000024>
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000024>
+rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000006>
+rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ddecd845330}, NULL, 8) = 0 <0.000045>
+rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000006>
+rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000007>
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000024>
+rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000023>
+rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000006>
+fcntl(0, F_GETFL)                       = 0x2 (flags O_RDWR) <0.000021>
+ioctl(0, TCGETS, {c_iflag=BRKINT|INLCR|ICRNL|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0 <0.000034>
+ioctl(0, TCGETS, {c_iflag=BRKINT|INLCR|ICRNL|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0 <0.000042>
+fcntl(1, F_GETFL)                       = 0x8001 (flags O_WRONLY|O_LARGEFILE) <0.000023>
+ioctl(1, TCGETS, 0x7ffcaa36e6f0)        = -1 ENOTTY (Inappropriate ioctl for device) <0.000025>
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0 <0.000100>
+fcntl(2, F_GETFL)                       = 0x8001 (flags O_WRONLY|O_LARGEFILE) <0.000071>
+ioctl(2, TCGETS, 0x7ffcaa36e6f0)        = -1 ENOTTY (Inappropriate ioctl for device) <0.000010>
+fstat(2, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0 <0.000009>
+rt_sigaction(SIGINT, {sa_handler=0xc5fab0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7ddecd845330}, NULL, 8) = 0 <0.000029>
+rt_sigaction(SIGTERM, {sa_handler=0xc5fab0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7ddecd845330}, NULL, 8) = 0 <0.000027>
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0 <0.000026>
+fcntl(0, F_SETFD, FD_CLOEXEC)           = 0 <0.000033>
+fcntl(1, F_SETFD, FD_CLOEXEC)           = 0 <0.000006>
+fcntl(2, F_SETFD, FD_CLOEXEC)           = 0 <0.000008>
+fcntl(3, F_SETFD, FD_CLOEXEC)           = -1 EBADF (Bad file descriptor) <0.000009>
+fcntl(4, F_SETFD, FD_CLOEXEC)           = -1 EBADF (Bad file descriptor) <0.000007>
+fcntl(5, F_SETFD, FD_CLOEXEC)           = -1 EBADF (Bad file descriptor) <0.000026>
+fcntl(6, F_SETFD, FD_CLOEXEC)           = -1 EBADF (Bad file descriptor) <0.000008>
+fcntl(7, F_SETFD, FD_CLOEXEC)           = -1 EBADF (Bad file descriptor) <0.000022>
+fcntl(8, F_SETFD, FD_CLOEXEC)           = -1 EBADF (Bad file descriptor) <0.000025>
+fcntl(9, F_SETFD, FD_CLOEXEC)           = -1 EBADF (Bad file descriptor) <0.000024>
+fcntl(10, F_SETFD, FD_CLOEXEC)          = -1 EBADF (Bad file descriptor) <0.000024>
+fcntl(11, F_SETFD, FD_CLOEXEC)          = -1 EBADF (Bad file descriptor) <0.000023>
+fcntl(12, F_SETFD, FD_CLOEXEC)          = -1 EBADF (Bad file descriptor) <0.000023>
+fcntl(13, F_SETFD, FD_CLOEXEC)          = -1 EBADF (Bad file descriptor) <0.000023>
+fcntl(14, F_SETFD, FD_CLOEXEC)          = -1 EBADF (Bad file descriptor) <0.000023>
+fcntl(15, F_SETFD, FD_CLOEXEC)          = -1 EBADF (Bad file descriptor) <0.000024>
+fcntl(16, F_SETFD, FD_CLOEXEC)          = -1 EBADF (Bad file descriptor) <0.000023>
+getpid()                                = 2662732 <0.000027>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000007>
+getuid()                                = 1000 <0.000008>
+geteuid()                               = 1000 <0.000008>
+getgid()                                = 1001 <0.000007>
+getegid()                               = 1001 <0.000007>
+getpid()                                = 2662732 <0.000008>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000008>
+getuid()                                = 1000 <0.000007>
+geteuid()                               = 1000 <0.000008>
+getgid()                                = 1001 <0.000007>
+getegid()                               = 1001 <0.000025>
+getpid()                                = 2662732 <0.000023>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000025>
+getuid()                                = 1000 <0.000008>
+geteuid()                               = 1000 <0.000040>
+getgid()                                = 1001 <0.000007>
+getegid()                               = 1001 <0.000006>
+getpid()                                = 2662732 <0.000020>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000006>
+getuid()                                = 1000 <0.000006>
+geteuid()                               = 1000 <0.000024>
+getgid()                                = 1001 <0.000024>
+getegid()                               = 1001 <0.000023>
+getpid()                                = 2662732 <0.000022>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000025>
+getuid()                                = 1000 <0.000023>
+geteuid()                               = 1000 <0.000023>
+getgid()                                = 1001 <0.000023>
+getegid()                               = 1001 <0.000023>
+getpid()                                = 2662732 <0.000026>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000008>
+getuid()                                = 1000 <0.000006>
+geteuid()                               = 1000 <0.000023>
+getgid()                                = 1001 <0.000008>
+getegid()                               = 1001 <0.000008>
+futex(0x5542c60, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000026>
+getpid()                                = 2662732 <0.000040>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000028>
+getuid()                                = 1000 <0.000006>
+geteuid()                               = 1000 <0.000008>
+getgid()                                = 1001 <0.000008>
+getegid()                               = 1001 <0.000006>
+futex(0x553d71c, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000009>
+futex(0x553d710, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000027>
+futex(0x553d708, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000007>
+futex(0x553d228, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000027>
+futex(0x553d164, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000023>
+futex(0x553d754, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000024>
+futex(0x553d158, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000025>
+brk(0x16d26000)                         = 0x16d26000 <0.000013>
+futex(0x553d700, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000045>
+openat(AT_FDCWD, "/etc/ssl/openssl.cnf", O_RDONLY) = 3 <0.000037>
+fstat(3, {st_mode=S_IFREG|0644, st_size=12324, ...}) = 0 <0.000024>
+read(3, "#\n# OpenSSL example configuratio"..., 4096) = 4096 <0.000027>
+read(3, "d attributes must be the same, a"..., 4096) = 4096 <0.000010>
+read(3, "coding of an extension: beware e"..., 4096) = 4096 <0.000009>
+read(3, " = $insta::certout # insta.cert."..., 4096) = 36 <0.000008>
+read(3, "", 4096)                       = 0 <0.000008>
+close(3)                                = 0 <0.000008>
+futex(0x553d6e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000008>
+futex(0x553d850, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000007>
+futex(0x553d810, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000007>
+futex(0x553d6f8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000007>
+futex(0x553d6f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000007>
+getpid()                                = 2662732 <0.000047>
+brk(0x16d47000)                         = 0x16d47000 <0.000045>
+brk(0x16d46000)                         = 0x16d46000 <0.000040>
+getrandom("\xd3\xb1\x99\xe4\x16\xc6\x0f\x32\x68\xbd\xd4\x1a\x15\xe0\x54\x7d\x83\x87\xd5\x08\x5a\xb2\x5a\x84\xf6\x36\xd1\x95\x92\x64\xd1\xce"..., 48, 0) = 48 <0.000043>
+getpid()                                = 2662732 <0.000028>
+getpid()                                = 2662732 <0.000008>
+getpid()                                = 2662732 <0.000027>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000025>
+getuid()                                = 1000 <0.000023>
+geteuid()                               = 1000 <0.000008>
+getgid()                                = 1001 <0.000023>
+getegid()                               = 1001 <0.000023>
+epoll_create1(EPOLL_CLOEXEC)            = 3 <0.000029>
+pipe2([4, 5], O_CLOEXEC)                = 0 <0.000017>
+write(5, "*", 1)                        = 1 <0.000009>
+futex(0x553cd80, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000022>
+pipe2([6, 7], O_NONBLOCK|O_CLOEXEC)     = 0 <0.000029>
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 8 <0.000029>
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000024>
+rt_sigaction(SIGRT_1, {sa_handler=0x7ddecd899530, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_RESTART|SA_SIGINFO, sa_restorer=0x7ddecd845330}, NULL, 8) = 0 <0.000025>
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0 <0.000024>
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7ddeccfff000 <0.000031>
+mprotect(0x7ddecd000000, 8388608, PROT_READ|PROT_WRITE) = 0 <0.000019>
+rt_sigprocmask(SIG_BLOCK, ~[], [USR1], 8) = 0 <0.000008>
+clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7ddecd7ff990, parent_tid=0x7ddecd7ff990, exit_signal=0, stack=0x7ddeccfff000, stack_size=0x7ffe80, tls=0x7ddecd7ff6c0} => {parent_tid=[2662733]}, 88) = 2662733 <0.000055>
+rt_sigprocmask(SIG_SETMASK, [USR1], NULL, 8) = 0 <0.000007>
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000008>
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7ddecc7fe000 <0.000011>
+mprotect(0x7ddecc7ff000, 8388608, PROT_READ|PROT_WRITE) = 0 <0.000029>
+rt_sigprocmask(SIG_BLOCK, ~[], [USR1], 8) = 0 <0.000025>
+clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7ddeccffe990, parent_tid=0x7ddeccffe990, exit_signal=0, stack=0x7ddecc7fe000, stack_size=0x7ffe80, tls=0x7ddeccffe6c0} => {parent_tid=[2662734]}, 88) = 2662734 <0.000061>
+rt_sigprocmask(SIG_SETMASK, [USR1], NULL, 8) = 0 <0.000006>
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000023>
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7ddec77ff000 <0.000028>
+mprotect(0x7ddec7800000, 8388608, PROT_READ|PROT_WRITE) = 0 <0.000012>
+rt_sigprocmask(SIG_BLOCK, ~[], [USR1], 8) = 0 <0.000008>
+clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7ddec7fff990, parent_tid=0x7ddec7fff990, exit_signal=0, stack=0x7ddec77ff000, stack_size=0x7ffe80, tls=0x7ddec7fff6c0} => {parent_tid=[2662735]}, 88) = 2662735 <0.000064>
+rt_sigprocmask(SIG_SETMASK, [USR1], NULL, 8) = 0 <0.000008>
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000025>
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7ddec6ffe000 <0.000027>
+mprotect(0x7ddec6fff000, 8388608, PROT_READ|PROT_WRITE) = 0 <0.000030>
+rt_sigprocmask(SIG_BLOCK, ~[], [USR1], 8) = 0 <0.000008>
+clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7ddec77fe990, parent_tid=0x7ddec77fe990, exit_signal=0, stack=0x7ddec6ffe000, stack_size=0x7ffe80, tls=0x7ddec77fe6c0} => {parent_tid=[2662736]}, 88) = 2662736 <0.000065>
+rt_sigprocmask(SIG_SETMASK, [USR1], NULL, 8) = 0 <0.000008>
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000008>
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7ddec67fd000 <0.000029>
+mprotect(0x7ddec67fe000, 8388608, PROT_READ|PROT_WRITE) = 0 <0.000032>
+rt_sigprocmask(SIG_BLOCK, ~[], [USR1], 8) = 0 <0.000025>
+clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7ddec6ffd990, parent_tid=0x7ddec6ffd990, exit_signal=0, stack=0x7ddec67fd000, stack_size=0x7ffe80, tls=0x7ddec6ffd6c0} => {parent_tid=[2662737]}, 88) = 2662737 <0.000040>
+rt_sigprocmask(SIG_SETMASK, [USR1], NULL, 8) = 0 <0.000024>
+futex(0x7ffcaa36e800, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000024>
+futex(0x7ffcaa36e858, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0 <0.000043>
+futex(0x7ffcaa36e800, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000028>
+futex(0x7ffcaa36e85c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0 <0.000021>
+futex(0x7ffcaa36e800, FUTEX_WAKE_PRIVATE, 1) = 0 <0.000025>
+futex(0x7ffcaa36e858, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0 <0.000035>
+futex(0x7ffcaa36e800, FUTEX_WAKE_PRIVATE, 1) = 0 <0.000007>
+futex(0x7ffcaa36e85c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0 <0.000035>
+futex(0x7ffcaa36e800, FUTEX_WAKE_PRIVATE, 1) = 0 <0.000007>
+futex(0x7ddecde7a7c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000007>
+uname({sysname="Linux", nodename="VM-0-14-ubuntu", ...}) = 0 <0.000046>
+pkey_alloc(0, PKEY_DISABLE_ACCESS)      = -1 EINVAL (Invalid argument) <0.000024>
+mmap(NULL, 524288, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7ddecdb75000 <0.000045>
+madvise(0x7ddecdb75000, 524288, MADV_DONTFORK) = 0 <0.000029>
+mprotect(0x7ddecdb75000, 16384, PROT_READ|PROT_WRITE) = 0 <0.000033>
+rt_sigaction(SIGSEGV, {sa_handler=0xc5fea0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7ddecd845330}, NULL, 8) = 0 <0.000008>
+epoll_create1(EPOLL_CLOEXEC)            = 13 <0.000029>
+pipe2([14, 15], O_NONBLOCK|O_CLOEXEC)   = 0 <0.000030>
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 16 <0.000025>
+brk(0x16d74000)                         = 0x16d74000 <0.000027>
+openat(AT_FDCWD, "/proc/self/cgroup", O_RDONLY|O_CLOEXEC) = 17 <0.000069>
+read(17, "0::/user.slice/user-1000.slice/s"..., 1023) = 51 <0.000014>
+close(17)                               = 0 <0.000009>
+openat(AT_FDCWD, "/sys/fs/cgroup/user.slice/user-1000.slice/session-24172.scope/memory.max", O_RDONLY|O_CLOEXEC) = 17 <0.000023>
+read(17, "max\n", 31)                   = 4 <0.000011>
+close(17)                               = 0 <0.000010>
+openat(AT_FDCWD, "/sys/fs/cgroup/user.slice/user-1000.slice/session-24172.scope/memory.high", O_RDONLY|O_CLOEXEC) = 17 <0.000014>
+read(17, "max\n", 31)                   = 4 <0.000009>
+close(17)                               = 0 <0.000009>
+openat(AT_FDCWD, "/proc/meminfo", O_RDONLY|O_CLOEXEC) = 17 <0.000012>
+read(17, "MemTotal:        3813272 kB\nMemF"..., 4095) = 1531 <0.000023>
+close(17)                               = 0 <0.000006>
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 17 <0.000016>
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000007>
+fstat(17, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0 <0.000007>
+read(17, "00400000-00b6d000 r--p 00000000 "..., 1024) = 1024 <0.000017>
+read(17, "7ddec8000000-7ddec8021000 rw-p 0"..., 1024) = 1024 <0.000014>
+read(17, "0 00:00 0 \n7ddecdbfb000-7ddecdbf"..., 1024) = 1024 <0.000014>
+read(17, "/x86_64-linux-gnu/libstdc++.so.6"..., 1024) = 1024 <0.000015>
+read(17, "f000 fd:02 67323                "..., 1024) = 1024 <0.000016>
+read(17, "7ddecdfcf000 r-xp 00001000 fd:02"..., 1024) = 792 <0.000013>
+close(17)                               = 0 <0.000009>
+sched_getaffinity(2662732, 32, [0 1])   = 8 <0.000008>
+brk(0x16da2000)                         = 0x16da2000 <0.000043>
+getpid()                                = 2662732 <0.000047>
+getpid()                                = 2662732 <0.000039>
+getpid()                                = 2662732 <0.000038>
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY) = 17 <0.000035>
+fstat(17, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0 <0.000026>
+read(17, "00400000-00b6d000 r--p 00000000 "..., 1024) = 1024 <0.000039>
+close(17)                               = 0 <0.000025>
+mmap(0x16d80000, 537128960, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7ddea67be000 <0.000031>
+madvise(0x7ddea67be000, 537128960, MADV_DONTFORK) = 0 <0.000009>
+munmap(0x7ddea67be000, 8192)            = 0 <0.000018>
+munmap(0x7ddec67c0000, 249856)          = 0 <0.000017>
+mmap(0x129c93f00000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x129c93f00000 <0.000032>
+madvise(0x129c93f00000, 520192, MADV_DONTFORK) = 0 <0.000025>
+munmap(0x129c93f40000, 258048)          = 0 <0.000012>
+mprotect(0x129c93f00000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000007>
+brk(0x16dc3000)                         = 0x16dc3000 <0.000098>
+getpid()                                = 2662732 <0.000095>
+munmap(0x129c93f0d000, 208896)          = 0 <0.000036>
+mprotect(0x129c93f00000, 53248, PROT_READ) = 0 <0.000010>
+mmap(0x2a4b88dc0000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x2a4b88dc0000 <0.000011>
+madvise(0x2a4b88dc0000, 520192, MADV_DONTFORK) = 0 <0.000008>
+munmap(0x2a4b88e00000, 258048)          = 0 <0.000010>
+mprotect(0x2a4b88dc0000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000009>
+mmap(0x1d1730640000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x1d1730640000 <0.000035>
+madvise(0x1d1730640000, 520192, MADV_DONTFORK) = 0 <0.000008>
+munmap(0x1d1730680000, 258048)          = 0 <0.000011>
+mprotect(0x1d1730640000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000008>
+mmap(0x2d3faa180000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x2d3faa180000 <0.000010>
+madvise(0x2d3faa180000, 520192, MADV_DONTFORK) = 0 <0.000007>
+munmap(0x2d3faa1c0000, 258048)          = 0 <0.000014>
+mprotect(0x2d3faa180000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000008>
+mmap(0x377092480000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x377092480000 <0.000010>
+madvise(0x377092480000, 520192, MADV_DONTFORK) = 0 <0.000007>
+munmap(0x3770924c0000, 258048)          = 0 <0.000009>
+mprotect(0x377092480000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000008>
+getpid()                                = 2662732 <0.000007>
+mmap(0x1831bec0000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x1831bec0000 <0.000014>
+madvise(0x1831bec0000, 520192, MADV_DONTFORK) = 0 <0.000008>
+munmap(0x1831bf00000, 258048)           = 0 <0.000017>
+mprotect(0x1831bec0000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000008>
+brk(0x16df2000)                         = 0x16df2000 <0.000045>
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ddecdb54000 <0.000052>
+mmap(0x1afe8d680000, 528384, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x1afe8d680000 <0.000047>
+madvise(0x1afe8d680000, 528384, MADV_DONTFORK) = 0 <0.000029>
+munmap(0x1afe8d6c2000, 258048)          = 0 <0.000035>
+mprotect(0x1afe8d680000, 270336, PROT_READ|PROT_WRITE) = 0 <0.000009>
+mmap(0x3fc3840000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x3fc3840000 <0.000053>
+madvise(0x3fc3840000, 520192, MADV_DONTFORK) = 0 <0.000029>
+munmap(0x3fc3880000, 258048)            = 0 <0.000031>
+mprotect(0x3fc3840000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000009>
+brk(0x16e22000)                         = 0x16e22000 <0.000045>
+mmap(0xbf4c2f80000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xbf4c2f80000 <0.000045>
+madvise(0xbf4c2f80000, 520192, MADV_DONTFORK) = 0 <0.000028>
+munmap(0xbf4c2fc0000, 258048)           = 0 <0.000013>
+mprotect(0xbf4c2f80000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000007>
+mmap(0x3f716500000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x3f716500000 <0.000042>
+madvise(0x3f716500000, 520192, MADV_DONTFORK) = 0 <0.000029>
+munmap(0x3f716540000, 258048)           = 0 <0.000030>
+mprotect(0x3f716500000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000025>
+brk(0x16e52000)                         = 0x16e52000 <0.000047>
+munmap(0x3f716538000, 32768)            = 0 <0.000044>
+gettid()                                = 2662732 <0.000058>
+gettid()                                = 2662732 <0.000029>
+gettid()                                = 2662732 <0.000023>
+readlink("/proc/self/exe", "/usr/bin/node", 8191) = 13 <0.000037>
+getpid()                                = 2662732 <0.000008>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000009>
+getuid()                                = 1000 <0.000008>
+geteuid()                               = 1000 <0.000007>
+getgid()                                = 1001 <0.000008>
+getegid()                               = 1001 <0.000007>
+mmap(0x26fca3c0000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x26fca3c0000 <0.000012>
+madvise(0x26fca3c0000, 520192, MADV_DONTFORK) = 0 <0.000027>
+munmap(0x26fca400000, 258048)           = 0 <0.000034>
+mprotect(0x26fca3c0000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000010>
+mmap(0xf5b2da80000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xf5b2da80000 <0.000043>
+madvise(0xf5b2da80000, 520192, MADV_DONTFORK) = 0 <0.000043>
+munmap(0xf5b2dac0000, 258048)           = 0 <0.000031>
+mprotect(0xf5b2da80000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000025>
+mmap(0x2cf686a00000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x2cf686a00000 <0.000049>
+madvise(0x2cf686a00000, 520192, MADV_DONTFORK) = 0 <0.000029>
+munmap(0x2cf686a40000, 258048)          = 0 <0.000035>
+mprotect(0x2cf686a00000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000010>
+mmap(0x2cb668c00000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x2cb668c00000 <0.000045>
+madvise(0x2cb668c00000, 520192, MADV_DONTFORK) = 0 <0.000028>
+munmap(0x2cb668c40000, 258048)          = 0 <0.000029>
+mprotect(0x2cb668c00000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000009>
+mmap(0x29a727380000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x29a727380000 <0.000050>
+madvise(0x29a727380000, 520192, MADV_DONTFORK) = 0 <0.000028>
+munmap(0x29a7273c0000, 258048)          = 0 <0.000035>
+mprotect(0x29a727380000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000009>
+mmap(0x3612a9300000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x3612a9300000 <0.000052>
+madvise(0x3612a9300000, 520192, MADV_DONTFORK) = 0 <0.000028>
+munmap(0x3612a9340000, 258048)          = 0 <0.000030>
+mprotect(0x3612a9300000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000009>
+getpid()                                = 2662732 <0.000042>
+futex(0x553ce28, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000027>
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [USR1], 8) = 0 <0.000041>
+mmap(NULL, 36864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7ddecdb4b000 <0.000032>
+mprotect(0x7ddecdb4c000, 32768, PROT_READ|PROT_WRITE) = 0 <0.000029>
+rt_sigprocmask(SIG_BLOCK, ~[], ~[KILL STOP RTMIN RT_1], 8) = 0 <0.000044>
+clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7ddecdb53990, parent_tid=0x7ddecdb53990, exit_signal=0, stack=0x7ddecdb4b000, stack_size=0x7e80, tls=0x7ddecdb536c0} => {parent_tid=[2662738]}, 88) = 2662738 <0.000110>
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0 <0.000026>
+rt_sigprocmask(SIG_SETMASK, [USR1], NULL, 8) = 0 <0.000025>
+rt_sigaction(SIGUSR1, {sa_handler=0xdf85b0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7ddecd845330}, NULL, 8) = 0 <0.000029>
+rt_sigprocmask(SIG_UNBLOCK, [USR1], NULL, 8) = 0 <0.000008>
+futex(0x553ce8c, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000036>
+futex(0x553cf6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000006>
+futex(0x553d6c4, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000008>
+futex(0x553d6bc, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000006>
+futex(0x553d6b4, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000008>
+futex(0x552d588, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000027>
+getpid()                                = 2662732 <0.000044>
+getcwd("/home/ubuntu/learn-main/linux-learn/2-1\347\263\273\347\273\237\350\260\203\347\224\250", 4096) = 52 <0.000044>
+mprotect(0x7ddea67c0000, 8192, PROT_READ|PROT_WRITE) = 0 <0.000064>
+mprotect(0x7ddea67c2000, 4096, PROT_NONE) = 0 <0.000029>
+madvise(0x7ddea67c2000, 4096, MADV_DONTNEED) = 0 <0.000027>
+mprotect(0x7ddea67c3000, 245760, PROT_READ|PROT_WRITE|PROT_EXEC) = 0 <0.000030>
+mprotect(0x7ddea67ff000, 4096, PROT_NONE) = 0 <0.000026>
+madvise(0x7ddea67ff000, 4096, MADV_DONTNEED) = 0 <0.000026>
+mprotect(0x7ddea67c3000, 245760, PROT_READ|PROT_WRITE|PROT_EXEC) = 0 <0.000024>
+getpid()                                = 2662732 <0.000045>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000030>
+getuid()                                = 1000 <0.000006>
+geteuid()                               = 1000 <0.000007>
+getgid()                                = 1001 <0.000008>
+getegid()                               = 1001 <0.000006>
+getpid()                                = 2662732 <0.000008>
+capget({version=_LINUX_CAPABILITY_VERSION_3, pid=2662732}, {effective=0, permitted=0, inheritable=0}) = 0 <0.000025>
+getuid()                                = 1000 <0.000024>
+geteuid()                               = 1000 <0.000023>
+getgid()                                = 1001 <0.000024>
+getegid()                               = 1001 <0.000024>
+statx(AT_FDCWD, "/home/ubuntu/learn-main/linux-learn/2-1\347\263\273\347\273\237\350\260\203\347\224\250/ppidloop.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=307, ...}) = 0 <0.000056>
+statx(AT_FDCWD, "/home", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000066>
+statx(AT_FDCWD, "/home/ubuntu", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0750, stx_size=4096, ...}) = 0 <0.000011>
+statx(AT_FDCWD, "/home/ubuntu/learn-main", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0 <0.000011>
+statx(AT_FDCWD, "/home/ubuntu/learn-main/linux-learn", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0 <0.000010>
+statx(AT_FDCWD, "/home/ubuntu/learn-main/linux-learn/2-1\347\263\273\347\273\237\350\260\203\347\224\250", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0 <0.000010>
+statx(AT_FDCWD, "/home/ubuntu/learn-main/linux-learn/2-1\347\263\273\347\273\237\350\260\203\347\224\250/ppidloop.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=307, ...}) = 0 <0.000010>
+openat(AT_FDCWD, "/home/ubuntu/learn-main/linux-learn/2-1\347\263\273\347\273\237\350\260\203\347\224\250/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000074>
+openat(AT_FDCWD, "/home/ubuntu/learn-main/linux-learn/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000010>
+openat(AT_FDCWD, "/home/ubuntu/learn-main/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000009>
+openat(AT_FDCWD, "/home/ubuntu/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000011>
+openat(AT_FDCWD, "/home/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000008>
+openat(AT_FDCWD, "/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000009>
+openat(AT_FDCWD, "/home/ubuntu/learn-main/linux-learn/2-1\347\263\273\347\273\237\350\260\203\347\224\250/ppidloop.js", O_RDONLY|O_CLOEXEC) = 17 <0.000057>
+read(17, "// \347\261\273\344\274\274c\344\270\255\347\232\204for+sleep, \346\257\217\347\247"..., 8192) = 307 <0.000031>
+read(17, "", 8192)                      = 0 <0.000008>
+close(17)                               = 0 <0.000008>
+epoll_ctl(13, EPOLL_CTL_ADD, 14, {events=EPOLLIN, data={u32=14, u64=14}}) = 0 <0.000061>
+epoll_ctl(13, EPOLL_CTL_ADD, 16, {events=EPOLLIN, data={u32=16, u64=16}}) = 0 <0.000030>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000008>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.001063>
+getppid()                               = 2662729 <0.000050>
+getppid()                               = 2662729 <0.000029>
+ioctl(1, TCGETS, 0x7ffcaa36b470)        = -1 ENOTTY (Inappropriate ioctl for device) <0.000059>
+fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0 <0.000032>
+mmap(0x1de163800000, 520192, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x1de163800000 <0.000051>
+madvise(0x1de163800000, 520192, MADV_DONTFORK) = 0 <0.000031>
+munmap(0x1de163840000, 258048)          = 0 <0.000039>
+mprotect(0x1de163800000, 262144, PROT_READ|PROT_WRITE) = 0 <0.000011>
+ioctl(2, TCGETS, 0x7ffcaa36b300)        = -1 ENOTTY (Inappropriate ioctl for device) <0.000045>
+fstat(2, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0 <0.000009>
+write(1, "2662729 number\n", 15)        = 15 <0.000099>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000045>
+epoll_pwait(13, [], 1024, 995, NULL, 8) = 0 <1.000042>
+getppid()                               = 2662729 <0.000009>
+getppid()                               = 2662729 <0.000034>
+write(1, "2662729 number\n", 15)        = 15 <0.000037>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000042>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.005046>
+getppid()                               = 2662729 <0.000079>
+getppid()                               = 2662729 <0.000013>
+write(1, "2662729 number\n", 15)        = 15 <0.000077>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000007>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.001137>
+getppid()                               = 2662729 <0.000009>
+getppid()                               = 2662729 <0.000034>
+write(1, "2662729 number\n", 15)        = 15 <0.000042>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000048>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.004799>
+getppid()                               = 2662729 <0.000032>
+getppid()                               = 2662729 <0.000009>
+write(1, "2662729 number\n", 15)        = 15 <0.000094>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000045>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.004066>
+getppid()                               = 2662729 <0.000048>
+getppid()                               = 2662729 <0.000032>
+write(1, "2662729 number\n", 15)        = 15 <0.000086>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000010>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.001143>
+getppid()                               = 2662729 <0.000072>
+getppid()                               = 2662729 <0.000008>
+write(1, "2662729 number\n", 15)        = 15 <0.000074>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000030>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.005050>
+getppid()                               = 2662729 <0.000087>
+getppid()                               = 2662729 <0.000008>
+write(1, "2662729 number\n", 15)        = 15 <0.000074>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000017>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.000103>
+getppid()                               = 2662729 <0.000054>
+getppid()                               = 2662729 <0.000007>
+write(1, "2662729 number\n", 15)        = 15 <0.000073>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000053>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.003496>
+getppid()                               = 2662729 <0.000076>
+getppid()                               = 2662729 <0.000008>
+write(1, "2662729 number\n", 15)        = 15 <0.000055>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000037>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.001142>
+getppid()                               = 2662729 <0.000009>
+getppid()                               = 2662729 <0.000025>
+write(1, "2662729 number\n", 15)        = 15 <0.000036>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000055>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.002434>
+getppid()                               = 2662729 <0.000087>
+getppid()                               = 2662729 <0.000008>
+write(1, "2662729 number\n", 15)        = 15 <0.000076>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000019>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.003707>
+getppid()                               = 2662729 <0.000056>
+getppid()                               = 2662729 <0.000038>
+write(1, "2662729 number\n", 15)        = 15 <0.000063>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000053>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.002654>
+getppid()                               = 2662729 <0.000067>
+getppid()                               = 2662729 <0.000008>
+write(1, "2662729 number\n", 15)        = 15 <0.000037>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000047>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.003085>
+getppid()                               = 2662729 <0.000085>
+getppid()                               = 2662729 <0.000009>
+write(1, "2662729 number\n", 15)        = 15 <0.000071>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000038>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.003699>
+getppid()                               = 2662729 <0.000070>
+getppid()                               = 2662729 <0.000086>
+write(1, "2662729 number\n", 15)        = 15 <0.000070>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000044>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.004059>
+getppid()                               = 2662729 <0.000068>
+getppid()                               = 2662729 <0.000039>
+write(1, "2662729 number\n", 15)        = 15 <0.000071>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000026>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.004009>
+getppid()                               = 2662729 <0.000107>
+getppid()                               = 2662729 <0.000009>
+write(1, "2662729 number\n", 15)        = 15 <0.000071>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000046>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.003540>
+getppid()                               = 2662729 <0.000008>
+getppid()                               = 2662729 <0.000007>
+write(1, "2662729 number\n", 15)        = 15 <0.000039>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000045>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.002286>
+getppid()                               = 2662729 <0.000110>
+getppid()                               = 2662729 <0.000034>
+write(1, "2662729 number\n", 15)        = 15 <0.000070>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000020>
+epoll_pwait(13, [], 1024, 999, NULL, 8) = 0 <1.004038>
+getppid()                               = 2662729 <0.000094>
+getppid()                               = 2662729 <0.000027>
+write(1, "2662729 number\n", 15)        = 15 <0.000074>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000010>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.003522>
+getppid()                               = 2662729 <0.000036>
+getppid()                               = 2662729 <0.000008>
+write(1, "2662729 number\n", 15)        = 15 <0.000039>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000052>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.004597>
+getppid()                               = 2662729 <0.000009>
+getppid()                               = 2662729 <0.000027>
+write(1, "2662729 number\n", 15)        = 15 <0.000040>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000044>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.004782>
+getppid()                               = 2662729 <0.000068>
+getppid()                               = 2662729 <0.000033>
+write(1, "2662729 number\n", 15)        = 15 <0.000071>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000046>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.005067>
+getppid()                               = 2662729 <0.000008>
+getppid()                               = 2662729 <0.000033>
+write(1, "2662729 number\n", 15)        = 15 <0.000038>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000042>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.001339>
+getppid()                               = 2662729 <0.000074>
+getppid()                               = 2662729 <0.000009>
+write(1, "2662729 number\n", 15)        = 15 <0.000077>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000036>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.004906>
+getppid()                               = 2662729 <0.000091>
+getppid()                               = 2662729 <0.000008>
+write(1, "2662729 number\n", 15)        = 15 <0.000071>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000010>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.002291>
+getppid()                               = 2662729 <0.000009>
+getppid()                               = 2662729 <0.000026>
+write(1, "2662729 number\n", 15)        = 15 <0.000036>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000033>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.005056>
+getppid()                               = 2662729 <0.000100>
+getppid()                               = 2662729 <0.000029>
+write(1, "2662729 number\n", 15)        = 15 <0.000074>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000036>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.003905>
+getppid()                               = 2662729 <0.000091>
+getppid()                               = 2662729 <0.000008>
+write(1, "2662729 number\n", 15)        = 15 <0.000075>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000009>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.002786>
+getppid()                               = 2662729 <0.000069>
+getppid()                               = 2662729 <0.000027>
+write(1, "2662729 number\n", 15)        = 15 <0.000057>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000009>
+epoll_pwait(13, [], 1024, 1000, NULL, 8) = 0 <1.003917>
+getppid()                               = 2662729 <0.000009>
+getppid()                               = 2662729 <0.000033>
+write(1, "2662729 number\n", 15)        = 15 <0.000040>
+epoll_pwait(13, [], 1024, 0, NULL, 8)   = 0 <0.000048>
+epoll_pwait(13, 
